@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "smarty-bot"
+version = "0.1.0"
+description = ""
+authors = ["Gregory <goldengrisha@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+python-telegram-bot = "^21.3"
+langchain = "^0.2.6"
+langchain-openai = "^0.1.10"
+bs4 = "^0.0.2"
+langchain-chroma = "^0.1.1"
+langchain-community = "^0.2.6"
+langchainhub = "^0.1.20"
+load-dotenv = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
